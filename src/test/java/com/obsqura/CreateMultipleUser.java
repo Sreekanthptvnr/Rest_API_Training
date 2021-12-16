@@ -18,7 +18,7 @@ public class CreateMultipleUser {
 		HashMap<String,String>apiData= new HashMap<String,String>();
 		apiData.put("name", "a");
 		apiData.put("job", "b");
-	    F1_request req = new F1_request("https://reqres.in","Sample.json",apidata);
+	    F1_request req = new F1_request("https://reqres.in","Sample.json",apiData);
 	    F1_Response resp =ApiHelper.hitAPI(req);
 		String rspBody =resp.getResponsebody();
 		System.out.println(rspBody);
