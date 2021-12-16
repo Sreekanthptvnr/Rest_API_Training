@@ -30,7 +30,7 @@ public class CreateMultipleUser {
 
 	public  Object[][] dp(){
 		
-		return  new Object[][] {{"Sreekanth","engineer"}, {"Rahul","doctor"}};
+		return  new Object[][] {{"Sreekanth","engineer"}, {"joy","doctor"}};
 	}
 
 	
