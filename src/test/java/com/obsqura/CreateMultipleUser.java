@@ -2,14 +2,12 @@ package com.obsqura;
 
 import java.util.HashMap;
 
+import api.ApiHelper;
+import api.F1_Response;
+import api.F1_request;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import api.ApiHelper;
-import api.F1Request;
-import api.F1_Response;
-import api.F1_request;
 
 public class CreateMultipleUser {
 	
@@ -19,7 +17,7 @@ public class CreateMultipleUser {
 		apiData.put("name", "a");
 		apiData.put("job", "b");
 	    F1_request req = new F1_request("https://reqres.in","Sample.json",apiData);
-	    F1_Response resp =ApiHelper.hitAPI(req);
+	    F1_Response resp = ApiHelper.hitAPI(req);
 		String rspBody =resp.getResponsebody();
 		System.out.println(rspBody);
 		int respCode =resp.getResponsecode();
@@ -30,7 +28,7 @@ public class CreateMultipleUser {
 
 	public  Object[][] dp(){
 		
-		return  new Object[][] {{"Sreekanth","engineer"}, {"joy","doctor"}};
+		return  new Object[][] {{"john","engineer"}, {"joy","doctor"}};
 	}
 
 	

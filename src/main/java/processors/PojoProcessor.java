@@ -1,4 +1,4 @@
-package com.obsqura;
+package processors;
 
 import java.lang.reflect.Type;
 

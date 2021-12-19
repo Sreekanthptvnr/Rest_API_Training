@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="283f38b2-0c05-452c-9f7c-b255d6094dc0" name="Changes" comment="Added data provider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/F1_request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/F1_request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/obsqura/JSONArrayRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/obsqura/JSONArrayRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/obsqura/JSONProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processors/JSONProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/obsqura/PojoProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processors/PojoProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/obsqura/ReadJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/obsqura/ReadJSON.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/obsqura/CreateMultipleUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/obsqura/CreateMultipleUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/obsqura/MyFirstGETRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/obsqura/MyFirstGETRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +37,41 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.MyFirstGETRequest">
+    <configuration name="CreateMultipleUser (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.obsqura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.obsqura" />
+      <option name="MAIN_CLASS_NAME" value="com.obsqura.CreateMultipleUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateMultipleUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.obsqura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.obsqura" />
+      <option name="MAIN_CLASS_NAME" value="com.obsqura.CreateMultipleUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateMultipleUser.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <extension name="coverage">
@@ -50,8 +90,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyFirstGETRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.obsqura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.obsqura" />
+      <option name="MAIN_CLASS_NAME" value="com.obsqura.MyFirstGETRequest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyFirstGETRequest" />
+        <item itemvalue="TestNG.CreateMultipleUser (1)" />
+        <item itemvalue="TestNG.CreateMultipleUser" />
         <item itemvalue="TestNG.CreateMultipleUser.test1" />
       </list>
     </recent_temporary>
@@ -72,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639676226359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added data provider">
+      <created>1639676292327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639676292327</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added data provider">
+      <created>1639676346402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639676346402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

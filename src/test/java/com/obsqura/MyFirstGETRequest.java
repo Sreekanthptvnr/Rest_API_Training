@@ -10,12 +10,12 @@ import Pojo.Root;
 import api.ApiHelper;
 import api.F1_Response;
 import api.F1_request;
-import api.F1Request;
 import io.restassured.RestAssured;
 import io.restassured.http.Headers;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import processors.PojoProcessor;
 
 public class MyFirstGETRequest {
 	@Test(enabled=false)
@@ -79,15 +79,15 @@ public class MyFirstGETRequest {
 				"    \"name\": \"sreekanth\",\r\n" + 
 				"    \"job\": \"doctor\"\r\n" + 
 				"}";
-	    HashMap<String,String>header=new HashMap<String,String>();
-	    header.put("Connection", "keep-alive");
-		/*F1Request req =new F1Request("https://reqres.in","/api/users","POST",requestbody,header);
-		F1Response h =ApiHelper.hitAPI(req);
+//	    HashMap<String,String>header=new HashMap<String,String>();
+//	    header.put("Connection", "keep-alive");
+		F1_request req =new F1_request("https://reqres.in","/api/users","POST",requestbody,header);
+		F1_Response h =ApiHelper.hitAPI(req);
 		String k =h.getResponsebody();
 		System.out.println(k);
 		int j =h.getResponsecode();
 		System.out.println(j);
-		Assert.assertEquals(j, 201);*/
+		Assert.assertEquals(j, 201);
 	}
 	@Test
 	public void test7() {

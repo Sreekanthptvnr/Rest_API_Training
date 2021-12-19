@@ -7,9 +7,9 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import com.jayway.jsonpath.JsonPath;
-import com.obsqura.JSONProcessor;
 
 import io.restassured.http.Method;
+import processors.JSONProcessor;
 
 public class F1_request {
 	public String resourceurl;
@@ -49,7 +49,7 @@ public class F1_request {
 		 String  requesttype=JSONProcessor.individualValue(datapath,"$.type");
 		 JSONObject requestpayload=JSONProcessor. getdatajson(datapath,"requestbody");
 		 
-		 System.out.println("request body"+requestpayload);
+//		 System.out.println("request body"+requestpayload);
 		 this.baseurl=baseurl;
 		 this.resourceurl=resourceurl;
 		 this.requesttype=requesttype;
@@ -81,6 +81,14 @@ public class F1_request {
 		
 		// TODO Auto-generated constructor stub
 	}
+
+	public F1_request(String baseUrl, String resourceUrl, String reqType, String requestbody) {
+		// TODO Auto-generated constructor stub
+		
+	}
+
+	
+	}
 	
 
-}
+

@@ -1,4 +1,4 @@
-package com.obsqura;
+package processors;
 
 import java.io.FileReader;
 import java.io.Reader;
